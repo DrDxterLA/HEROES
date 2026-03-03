@@ -1,0 +1,70 @@
+/* ===============================
+   ESTILO GENERAL
+================================ */
+body{
+  background: radial-gradient(circle at top, #0d1117, #000);
+  color: #ffffff;
+}
+
+/* ===============================
+   TÍTULO PRINCIPAL
+================================ */
+h1{
+  color: #00f5ff;
+  text-shadow: 0 0 15px #00f5ff;
+}
+
+/* ===============================
+   TARJETAS
+================================ */
+.hero-card,
+.stats-card{
+  background: linear-gradient(145deg, #1c2430, #0b0f14);
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(0,255,255,.15);
+  height: 100%;
+}
+
+/* ===============================
+   IMAGEN DEL HÉROE
+================================ */
+.hero-img{
+  height: 260px;
+  object-fit: cover;
+}
+
+/* ===============================
+   FILA DE STATS
+================================ */
+.stat-row{
+  margin-bottom: 10px;
+}
+
+/* TEXTO DEL NOMBRE DEL STAT */
+.stat-label{
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+}
+
+/* BARRA BASE */
+.stat-bar{
+  height: 4px;
+  background: #1a1f2a;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* BARRA ACTIVA (GLOW) */
+.stat-fill{
+  height: 100%;
+  background: linear-gradient(90deg, #00f5ff, #7cfbff);
+  box-shadow: 0 0 8px #00f5ff;
+}
+
+/* VALOR NUMÉRICO */
+.stat-value{
+  font-size: 0.75rem;
+  color: #00f5ff;
+  min-width: 30px;
+  text-align: right;
+}
